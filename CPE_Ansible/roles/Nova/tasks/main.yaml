@@ -1,0 +1,8 @@
+  - name: Installing Nova and its dependencies
+    apt:
+      name:
+        - nova-api
+        - nova-conductor
+        - nova-novncproxy
+        - nova-scheduler
+

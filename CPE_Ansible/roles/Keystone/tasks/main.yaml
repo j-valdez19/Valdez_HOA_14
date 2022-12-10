@@ -1,0 +1,7 @@
+  - name: Installing Keystone and its dependencies
+    apt:
+      name:
+        - keystone
+        - apache2
+        - libapache2-mod-wsgi
+
